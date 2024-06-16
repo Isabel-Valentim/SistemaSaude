@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, ScrollView } from 'react-native';
 import CadastroCliente from './components/CadastroCliente';
 import InformacoesSaude from './components/InformacoesSaude';
+import Preferencias from './components/Preferencias';
 import PlanoSaude from './components/PlanoSaude';
 import DadosPlanoSaude from './components/DadosPlanoSaude';
 import Perfil from './components/Perfil';
@@ -10,6 +11,7 @@ export default function App() {
     <ScrollView style={styles.container}>
       <CadastroCliente />
       <InformacoesSaude />
+      <Preferencias />
       <PlanoSaude />
       <DadosPlanoSaude />
       <Perfil />
