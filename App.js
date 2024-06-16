@@ -4,6 +4,7 @@ import CadastroCliente from './components/CadastroCliente';
 import InformacoesSaude from './components/InformacoesSaude';
 import PlanoSaude from './components/PlanoSaude';
 import DadosPlanoSaude from './components/DadosPlanoSaude';
+import Perfil from './components/Perfil';
 export default function App() {
   return (
     <ScrollView style={styles.container}>
@@ -11,6 +12,7 @@ export default function App() {
       <InformacoesSaude />
       <PlanoSaude />
       <DadosPlanoSaude />
+      <Perfil />
       <StatusBar style="auto" />
     </ScrollView>
   );
